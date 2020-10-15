@@ -48,6 +48,16 @@ a:hover {
   margin:auto;
   width: 70%;
 }
+
+span.languages::after {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  color:inherit;
+  font-weight: 900;
+  font-size: 12px;
+  margin-left: 2px;
+}
 /*----HEADER----*/
 header {
   height: 80px;
@@ -58,13 +68,18 @@ header {
 }
 .header-right > div,.header-left > div {
  display: inline-block;
+
 }
 /*---header-left---*/
+.header-left {
+  font-size:0;
+}
 .header-left a {
-  border-right: 2px solid #33475b;
+  font-size: 1.125rem;
+  width: 130px;
   display: inline-block;
   line-height: 1.125rem;
-  width: 105%;
+  border-right: 2px solid #33475b;
 }
 .contact-use a {
   border-right: none;
@@ -102,5 +117,28 @@ header {
 /* nav */
 nav {
   height: 80px;
-  background-color: white;
+  line-height: 80px;
+  background-color: red;
+  vertical-align: middle;
+
+}
+.nav-menu {
+  width: 50%;
+  font-size: 0;
+}
+#items-nav li {
+  display: inline-block;
+  font-size: 1.125rem;
+  width: calc(100% / 5);
+  text-align: center;
+  font-weight: 500;
+}
+#items-nav li a :not(.not-arrow) ::after {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  color:inherit;
+  font-weight: 900;
+  font-size: 12px;
+  margin-left: 2px;
 }
