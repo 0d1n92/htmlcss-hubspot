@@ -1,46 +1,54 @@
 
-/* clearfix */
+/*----clearfix---- */
 .clearfix ::after {
   content: "";
   display: table;
   clear: both;
 }
-/*-/clearfix*/
-/* reset */
+/*----/clearfix----*/
+/*----reset-----*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*/-reset*/
+/*/----reset----*/
 body {
   font-size: 1.125rem;
   font-weight: 500;
   color: #33475b;
   font-family: "Montserrat",Helvetica,Arial,sans-serif;
 }
-body > * {
+/* body > * {
   padding: 0 25%;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
     margin: .5em 0;
 }
 
-a{
+a {
   color: #32495b;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #007a8c;
   text-decoration: underline;
 }
 
-.left{
+.left-float {
   float:left;
 }
-/* header */
+
+.right-float {
+  float: right;
+}
+.wrap-center {
+  margin:auto;
+  width: 70%;
+}
+/*----HEADER----*/
 header {
   height: 80px;
   background-color: #f4f9fd;
@@ -48,21 +56,48 @@ header {
   line-height: 80px;
   vertical-align: middle;
 }
-.header-left > div{
+.header-right > div,.header-left > div {
  display: inline-block;
 }
+/*---header-left---*/
 .header-left a {
   border-right: 2px solid #33475b;
   display: inline-block;
   line-height: 1.125rem;
   width: 105%;
 }
-.contact-use a{
+.contact-use a {
   border-right: none;
   text-align: right;
 }
 .page-languages a i.fa-globe {
-margin-right: 5px;
+  margin-right: 5px;
+}
+/* ----header-right---- */
+.header-right-search i {
+  color: #03a7bf;
+}
+.header-right-login a, .header-right-getfree a {
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 20%;
+  width: 110%;
+  border-radius: 5px;
+}
+
+.header-right-login a {
+  border: 1px solid #fe775a;
+  color:#fe775a;
+}
+
+.header-right-getfree a {
+  background-color: #fe775a;
+  color: white;
+}
+.header-right-getfree a:hover {
+  background-color: #ffbcac;
+  text-decoration: none;
 }
 /* nav */
 nav {
