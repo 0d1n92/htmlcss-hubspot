@@ -106,7 +106,7 @@ margin-left: 20px;
 .header-right-search i {
   color: #03a7bf;
 }
-.header-right-login a, .header-right-getfree a {
+.header-right-login a, .header-right-getfree a.link-buttons-orange {
   line-height: 40px;
   display: inline-block;
   text-align: center;
@@ -120,13 +120,17 @@ margin-left: 20px;
   color:#fe775a;
 }
 
-.header-right-getfree a {
+.link-buttons-orange {
   background-color: #fe775a;
   color: white;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
 }
-.header-right-getfree a:hover {
+.link-buttons-orange:hover {
   background-color: #ffbcac;
   text-decoration: none;
+  color: white;
 }
 /* ----/header-right---- */
 /*----/HEADER----*/
@@ -146,7 +150,6 @@ nav {
 .navbar > div {
   display: inline-block;
 }
-
 
 /*----navbar sx---- */
 .nav-menu {
@@ -172,6 +175,7 @@ nav {
 /*----/navbar sx---- */
 /*----/NAV----*/
 /*----MAIN----*/
+/*---section home page hero--*/
 section.home-page-hero {
   height: 826px;
   width: 100vw;
@@ -192,7 +196,10 @@ article.hero-content {
   position: relative;
   z-index: 1;
 }
-
+p.info{
+  font-size: .875rem;
+  line-height: 1.64286em;
+}
 .lightgreen-bar {
   height: 100px;
   width: 100%;
@@ -203,6 +210,8 @@ article.hero-content {
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
-
+/*---/section home page hero--*/
+/*---section service--*/
+/*---/section service--*/
 
 /*----/MAIN----*/
