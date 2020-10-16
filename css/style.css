@@ -268,6 +268,7 @@ article.integretion-service p {
 /*--section crm---*/
 section.conteiner-crm {
   width: 100%;
+  min-width: 873px;
   height: 350px;
   padding: 5%;
 }
@@ -307,8 +308,10 @@ ul.popolar-list-orizontal li{
 .wrap-service > section {
   height: 100%;
   width:calc((100% - 100px)/3);
+  min-width: 190px;
   margin: 50px 25px 0px 25px;
   padding: 30px;
+
 }
 .wrap-service > section:first-child {
   margin-left: 0;
@@ -324,6 +327,7 @@ div.wrap-service ul {
 }
 div.wrap-service p {
   height: 300px;
+  min-width: 158.9px;
   border-bottom: 1px solid black;
 }
 .wrap-service section > ul {
