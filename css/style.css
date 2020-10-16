@@ -73,11 +73,13 @@ header {
 }
 /*---header-left---*/
 .header-left {
+  height: 100%;
   font-size:0;
 }
+
 .header-left a {
-  font-size: 1.125rem;
   width: 130px;
+  font-size: 1.125rem;
   display: inline-block;
   line-height: 1.125rem;
   border-right: 2px solid #33475b;
@@ -101,7 +103,7 @@ span.languages::after {
 /*---/header-left---*/
 /* ----header-right---- */
 .header-right > div {
-margin-left: 20px;
+  margin-left: 20px;
 }
 .header-right-search i {
   color: #03a7bf;
@@ -144,7 +146,7 @@ nav {
   top:0;
   z-index: 2;
   line-height: 80px;
-  background-color: #f4f9fd;
+  background-color: white;
   vertical-align: middle;
 }
 .navbar > div {
@@ -162,6 +164,9 @@ nav {
   text-align:right;
   margin: 0 20px;
 }
+#items-nav li {
+  margin-right: 0;
+}
 #items-nav li a:not(.not-arrow)::after {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
@@ -177,18 +182,12 @@ nav {
 /*----MAIN----*/
 /*---section home page hero--*/
 section.home-page-hero {
-  height: 826px;
+  height: 700px;
   width: 100vw;
   position: relative;
+  background: #FFF4EF
+ url("../img/jumbotron.png") no-repeat top right;
   padding: 50px 0;
-}
-
-img#jumbotron-img {
-  width: 100%;
-  min-width: 1400px;
-  height: 100%;
-  position: absolute;
-  top:0;
 }
 
 article.hero-content {
@@ -200,8 +199,9 @@ p.info{
   font-size: .875rem;
   line-height: 1.64286em;
 }
-.lightgreen-bar {
-  height: 100px;
+.home-page-hero::after {
+  content: "";
+  height: 90px;
   width: 100%;
   position: absolute;
   z-index: 1;
@@ -212,6 +212,13 @@ p.info{
 }
 /*---/section home page hero--*/
 /*---section service--*/
+section.service {
+  height: calc(826px * 2);
+  width: 100%;
+  background-color: aliceblue;
+}
+
+
 /*---/section service--*/
 
 /*----/MAIN----*/
