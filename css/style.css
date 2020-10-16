@@ -231,7 +231,34 @@ section.service {
   width: 100%;
   background-color: aliceblue;
 }
-/*--integretion-service--*/
+section.service article{
+  text-align: center;
+}
+div.wrap-service img, section.conteiner-crm img {
+  height: 120px;
+  width: 120px;
+}
+
+ul.popolar-feature-list {
+  list-style: none;
+  padding: 0;
+}
+ul.popolar-feature-list li {
+  padding-left: 1.8em;
+}
+ul.popolar-feature-list li::before {
+  content:  "\f058";
+  font-weight: 900;
+  font-family:  "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: -1.8em;
+  width: 1.8em;
+  color: #fe9a84;
+}
+/* .popolar-feature-list ul  li:first-letter {
+ text-transform: uppercase;
+} why not? */
+/*--integretion-service--
 article.integretion-service {
 text-align: center;
 }
@@ -243,10 +270,6 @@ section.conteiner-crm {
   width: 100%;
   height: 350px;
   padding: 5%;
-}
-section.conteiner-crm img {
-  height: 150px;
-  width: 150px;
 }
 
 .box-left-crm img:first-of-type {
@@ -270,21 +293,10 @@ section.conteiner-crm img {
   margin: 1% 0;
 }
 
-ul.popolar-feature-list {
-  list-style: none;
-  padding: 0;
-}
-ul.popolar-feature-list li {
-  padding-left: 1.3em;
-}
-ul.popolar-feature-list li::before {
-  content:  "\f058";
-  font-weight: 900;
-  font-family:  "Font Awesome 5 Free";
-  display: inline-block;
-  margin-left: -1.3em;
-  width: 1.3em;
-  color: #fe9a84;
+
+ul.popolar-list-orizontal li {
+  margin-right: 40px;
+  margin-top: 45px;
 }
 ul.popolar-list-orizontal li{
   display: inline-block;
@@ -293,9 +305,10 @@ ul.popolar-list-orizontal li{
 /*--/section crm---*/
 /*-- div contenitore servizi wrap-service--*/
 .wrap-service > section {
-  height: 500px;
+  height: 100%;
   width:calc((100% - 100px)/3);
   margin: 50px 25px 0px 25px;
+  padding: 30px;
 }
 .wrap-service > section:first-child {
   margin-left: 0;
@@ -303,7 +316,19 @@ ul.popolar-list-orizontal li{
 .wrap-service > section:last-child {
   margin-right:0;
 }
-
+div.wrap-service {
+  text-align: center;
+}
+div.wrap-service ul {
+  text-align: left;
+}
+div.wrap-service p {
+  height: 300px;
+  border-bottom: 1px solid black;
+}
+.wrap-service section > ul {
+  margin-bottom:50px;
+}
 /*--/div contenitore servizi wrap-service--*/
 /*---/SECTION SERVICE--*/
 
