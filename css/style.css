@@ -1,6 +1,6 @@
 
 /*----clearfix---- */
-.clearfix ::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -58,7 +58,13 @@ a:hover {
   margin:auto;
   width: 70%;
 }
+.background-white {
+  background-color: white;
+}
 
+section.service, section.home-page-hero {
+  padding: 50px 0;
+}
 /*----HEADER----*/
 header {
   height: 80px;
@@ -146,7 +152,6 @@ nav {
   top:0;
   z-index: 2;
   line-height: 80px;
-  background-color: white;
   vertical-align: middle;
 }
 .navbar > div {
@@ -187,7 +192,6 @@ section.home-page-hero {
   position: relative;
   background: #FFF4EF
  url("../img/jumbotron.png") no-repeat top right;
-  padding: 50px 0;
 }
 
 article.hero-content {
@@ -211,14 +215,36 @@ p.info{
   border-bottom: 3px solid #33475b;
 }
 /*---/section home page hero--*/
-/*---section service--*/
+/*---SECTON SERVICE--*/
 section.service {
-  height: calc(826px * 2);
+  height: 5400px;
   width: 100%;
   background-color: aliceblue;
 }
+/*--integretion-service--*/
+section.service {
+  text-align: center;
+}
+/*--section crm---*/
+section.conteiner-crm {
+  width: 100%;
+  height: 350px;
+}
+/*--/section crm---*/
+/*-- div contenitore servizi wrap-service--*/
+.wrap-service > section {
+  height: 500px;
+  width:calc((100% - 100px)/3);
+  margin: 50px 25px 0px 25px;
+}
+.wrap-service > section:first-child {
+  margin-left: 0;
+}
+.wrap-service > section:last-child {
+  margin-right:0;
+}
 
-
-/*---/section service--*/
+/*--/div contenitore servizi wrap-service--*/
+/*---/SECTION SERVICE--*/
 
 /*----/MAIN----*/
