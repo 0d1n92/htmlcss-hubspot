@@ -46,6 +46,18 @@ a:hover {
   color: #007a8c;
   text-decoration: underline;
 }
+.link-buttons-orange {
+  background-color: #fe775a;
+  color: white;
+  padding: 25px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.link-buttons-orange:hover {
+  background-color: #ffbcac;
+  text-decoration: none;
+  color: white;
+}
 
 .left-float {
   float:left;
@@ -69,7 +81,7 @@ section.service, section.home-page-hero {
 header {
   height: 80px;
   background-color: #f4f9fd;
-  border-bottom: 3px solid #33475b;
+  border-bottom: 1.5px solid #33475b;
   line-height: 80px;
   vertical-align: middle;
 }
@@ -128,18 +140,6 @@ span.languages::after {
   color:#fe775a;
 }
 
-.link-buttons-orange {
-  background-color: #fe775a;
-  color: white;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 5px;
-}
-.link-buttons-orange:hover {
-  background-color: #ffbcac;
-  text-decoration: none;
-  color: white;
-}
 /* ----/header-right---- */
 /*----/HEADER----*/
 /*---- NAV----*/
@@ -157,8 +157,14 @@ nav {
 .navbar > div {
   display: inline-block;
 }
-
 /*----navbar sx---- */
+.navbar .logo a {
+  display: inline-block;
+  line-height: 80px;
+  vertical-align: middle;
+  transform: translateY(10);
+}
+/*----navbar dx---- */
 .nav-menu {
   font-size: 0;
 }
@@ -182,9 +188,12 @@ nav {
   margin-left: 30px;
   text-decoration:none;
 }
-/*----/navbar sx---- */
+/*----/navbar dx---- */
 /*----/NAV----*/
 /*----MAIN----*/
+.popolar-feature {
+  text-transform: uppercase;
+}
 /*---section home page hero--*/
 section.home-page-hero {
   height: 700px;
@@ -203,6 +212,7 @@ p.info{
   font-size: .875rem;
   line-height: 1.64286em;
 }
+
 .home-page-hero::after {
   content: "";
   height: 90px;
@@ -222,14 +232,64 @@ section.service {
   background-color: aliceblue;
 }
 /*--integretion-service--*/
-section.service {
-  text-align: center;
+article.integretion-service {
+text-align: center;
+}
+article.integretion-service p {
+  padding: 0 5%;
 }
 /*--section crm---*/
 section.conteiner-crm {
   width: 100%;
   height: 350px;
+  padding: 5%;
 }
+section.conteiner-crm img {
+  height: 150px;
+  width: 150px;
+}
+
+.box-left-crm img:first-of-type {
+  display: block;
+}
+.box-right {
+  width: 80%;
+}
+.box-right p {
+  width: 100%;
+}
+.popolar-feature h4 {
+  width: 100%;
+}
+.popolar-feature hr {
+  width: 63%;
+  position: relative;
+  border: 1px solid;
+  display: inline-block;
+  float: right;
+  margin: 1% 0;
+}
+
+ul.popolar-feature-list {
+  list-style: none;
+  padding: 0;
+}
+ul.popolar-feature-list li {
+  padding-left: 1.3em;
+}
+ul.popolar-feature-list li::before {
+  content:  "\f058";
+  font-weight: 900;
+  font-family:  "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: #fe9a84;
+}
+ul.popolar-list-orizontal li{
+  display: inline-block;
+}
+
 /*--/section crm---*/
 /*-- div contenitore servizi wrap-service--*/
 .wrap-service > section {
