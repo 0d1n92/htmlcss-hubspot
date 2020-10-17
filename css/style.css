@@ -227,7 +227,6 @@ p.info{
 /*---/section home page hero--*/
 /*---SECTON SERVICE--*/
 section.service {
-  height: 5400px;
   width: 100%;
   background-color: aliceblue;
 }
@@ -258,12 +257,10 @@ ul.popolar-feature-list li::before {
 /* .popolar-feature-list ul  li:first-letter {
  text-transform: uppercase;
 } why not? */
-/*--integretion-service--
-article.integretion-service {
-text-align: center;
-}
+/*--integretion-service--*/
+
 article.integretion-service p {
-  padding: 0 5%;
+  padding: 0 7%;
 }
 /*--section crm---*/
 section.conteiner-crm {
@@ -294,7 +291,6 @@ section.conteiner-crm {
   margin: 1% 0;
 }
 
-
 ul.popolar-list-orizontal li {
   margin-right: 40px;
   margin-top: 45px;
@@ -311,7 +307,6 @@ ul.popolar-list-orizontal li{
   min-width: 190px;
   margin: 50px 25px 0px 25px;
   padding: 30px;
-
 }
 .wrap-service > section:first-child {
   margin-left: 0;
