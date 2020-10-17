@@ -53,6 +53,7 @@ a:hover {
   color: #007a8c;
   text-decoration: underline;
 }
+
 .link-buttons-orange {
   background-color: #fe775a;
   color: white;
@@ -73,16 +74,22 @@ a:hover {
 .right-float {
   float: right;
 }
+
 .wrap-center {
   margin:auto;
   width: 70%;
 }
+
 .background-white {
   background-color: white;
 }
 
 div.service, div.home-page-hero {
   padding: 50px 0;
+}
+
+.popolar-feature {
+  text-transform: uppercase;
 }
 /*----HEADER----*/
 #header-top {
@@ -94,7 +101,6 @@ div.service, div.home-page-hero {
 }
 .header-top-right > div,.header-top-left > div {
  display: inline-block;
-
 }
 /*---header-top-left---*/
 .header-top-left {
@@ -196,9 +202,6 @@ nav {
 }
 /*----/navbar dx---- */
 /*----/NAV----*/
-.popolar-feature {
-  text-transform: uppercase;
-}
 /*---section home page hero--*/
 div.home-page-hero {
   height: 700px;
