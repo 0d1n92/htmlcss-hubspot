@@ -37,6 +37,13 @@ p {
   margin-bottom: 1em;
 }
 
+ h1::first-letter,  h2::first-letter,  h3::first-letter,
+ h4::first-letter,  h5::first-letter, p::first-letter
+  {
+  text-transform: uppercase;
+}
+
+
 a {
   color: #32495b;
   text-decoration: none;
@@ -331,5 +338,57 @@ div.wrap-service p {
 }
 /*--/div contenitore servizi wrap-service--*/
 /*---/DIV SERVICE--*/
+/*-- SECTION COMUNITY --*/
+section.community {
+  color: white;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  text-align: center;
+  padding-top:50px;
+  padding-bottom: 100px;
+}
+/* div.table-ralation-first-box {
+  width: calc(100%/4);
+  display: inline-block;
 
+} */
+
+div.table-ralation-first-row {
+  border-bottom: 2px solid rgba(255,255,255,0.8);
+}
+div.table-ralation-second-row, div.table-ralation-first-row {
+  display: table;
+  width: 100%;
+}
+div.table-relation-box:last-child{
+  border: none;
+}
+div.table-relation-box {
+  width: calc(100%/4);
+  display: table-cell;
+  border-right:2px solid rgba(255,255,255,0.6);
+  padding-top: 40px;
+}
+.table-relation-box p {
+  font-size: 0.8rem;
+}
+.table-relation p.uppercase-1th::first-letter {
+  text-transform: uppercase;
+}
+.table-relation-box p::first-letter {
+  text-transform: lowercase;
+}
+
+.table-relation-box h2::after {
+  content:"\002B";
+  font-size: 1.405rem;
+  font-weight:500;
+  margin-left: 2px;
+}
+img.resize-img {
+  width: 150px;
+}
+/* div.table-relation-box:nth-child(2n+1) {
+  background-color: yellow;
+} */
+/*--/SECTION COMUNITY-- */
 /*----/MAIN----*/
