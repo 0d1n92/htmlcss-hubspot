@@ -161,7 +161,7 @@ nav {
   display: inline-block;
   line-height: 80px;
   vertical-align: middle;
-  transform: translateY(10);
+  transform: translateY(10%);
 }
 /*----navbar dx---- */
 .nav-menu {
@@ -279,16 +279,17 @@ section.conteiner-crm {
 .box-right p {
   width: 100%;
 }
-.popolar-feature h4 {
-  width: 100%;
+
+.inline {
+  display: inline;
 }
-.popolar-feature hr {
+
+.inline + hr {
   width: 63%;
-  position: relative;
   border: 1px solid;
-  display: inline-block;
   float: right;
-  margin: 1% 0;
+  margin:10px 0;
+  display: inline;
 }
 
 ul.popolar-list-orizontal li {
