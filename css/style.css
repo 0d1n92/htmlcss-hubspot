@@ -74,28 +74,28 @@ a:hover {
   background-color: white;
 }
 
-section.service, section.home-page-hero {
+div.service, div.home-page-hero {
   padding: 50px 0;
 }
 /*----HEADER----*/
-header {
+#header-top {
   height: 80px;
   background-color: #f4f9fd;
   border-bottom: 1.5px solid #33475b;
   line-height: 80px;
   vertical-align: middle;
 }
-.header-right > div,.header-left > div {
+.header-top-right > div,.header-top-left > div {
  display: inline-block;
 
 }
-/*---header-left---*/
-.header-left {
+/*---header-top-left---*/
+.header-top-left {
   height: 100%;
   font-size:0;
 }
 
-.header-left a {
+.header-top-left a {
   width: 130px;
   font-size: 1.125rem;
   display: inline-block;
@@ -120,13 +120,13 @@ span.languages::after {
 }
 /*---/header-left---*/
 /* ----header-right---- */
-.header-right > div {
+.header-top-right > div {
   margin-left: 20px;
 }
-.header-right-search i {
+.header-top-right-search i {
   color: #03a7bf;
 }
-.header-right-login a, .header-right-getfree a.link-buttons-orange {
+.header-top-right-login a, .header-top-right-getfree a.link-buttons-orange {
   line-height: 40px;
   display: inline-block;
   text-align: center;
@@ -135,13 +135,12 @@ span.languages::after {
   padding: 0 10px;
 }
 
-.header-right-login a {
+.header-top-right-login a {
   border: 1px solid #fe775a;
   color:#fe775a;
 }
 
 /* ----/header-right---- */
-/*----/HEADER----*/
 /*---- NAV----*/
 nav {
   height: 80px;
@@ -190,12 +189,11 @@ nav {
 }
 /*----/navbar dx---- */
 /*----/NAV----*/
-/*----MAIN----*/
 .popolar-feature {
   text-transform: uppercase;
 }
 /*---section home page hero--*/
-section.home-page-hero {
+div.home-page-hero {
   height: 700px;
   width: 100vw;
   position: relative;
@@ -225,12 +223,14 @@ p.info{
   border-bottom: 3px solid #33475b;
 }
 /*---/section home page hero--*/
-/*---SECTON SERVICE--*/
-section.service {
+/*----/HEADER----*/
+/*----MAIN----*/
+/*---DIV SERVICE--*/
+div.service {
   width: 100%;
   background-color: aliceblue;
 }
-section.service article{
+div.service article{
   text-align: center;
 }
 div.wrap-service img, section.conteiner-crm img {
@@ -329,6 +329,6 @@ div.wrap-service p {
   margin-bottom:50px;
 }
 /*--/div contenitore servizi wrap-service--*/
-/*---/SECTION SERVICE--*/
+/*---/DIV SERVICE--*/
 
 /*----/MAIN----*/
