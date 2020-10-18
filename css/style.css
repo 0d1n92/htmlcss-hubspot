@@ -93,7 +93,7 @@ div.wrap-service,div.service article, section.community {
     text-align: center;
   }
 
-  .justify{
+  .justify {
     text-align: justify;
   }
 /*----HEADER----*/
@@ -144,7 +144,7 @@ div.wrap-service,div.service article, section.community {
     .header-top-right-search i {
       color: #03a7bf;
     }
-    .header-top-right-login a, .header-top-right-getfree a.link-buttons-orange {
+  .header-top-right-login a, .header-top-right-getfree a.link-buttons-orange {
       line-height: 40px;
       display: inline-block;
       text-align: center;
@@ -416,7 +416,7 @@ div.wrap-service,div.service article, section.community {
         .customers-status-top-sx {
           width: 20%;
         }
-        
+
       .customers-status-bottom {
         margin-top: 80px;
       }
@@ -428,6 +428,68 @@ div.wrap-service,div.service article, section.community {
   /*---FOOTER---*/
   footer {
     background-color: #2d3e50;
-    height: 500px;
+    font-size: 0;
+    padding: 30px 0;
+    color: white;
   }
+
+    footer a {
+       color: #cbd6e2;
+       font-size: .9125rem;
+    }
+    .footer-cl {
+      display: inline-block;
+      width: calc((100% - 20px) / 4);
+      margin-right:5px;
+      vertical-align: top;
+    }
+      .footer-cl ul {
+        list-style: none;
+      }
+        .footer-cl ul li {
+          margin-bottom: 1.0125rem;
+        }
+        .footer-cl ul li:first-child {
+          font-weight: bold;
+          font-size: .9525rem;
+          margin-bottom: 1.5555rem;;
+        }
+          a.link-support {
+            line-height: 40px;
+            padding: 10px;
+            background-color: #dadee0;
+            border-radius: 5px;
+            color: black;
+          }
+
+          .social-icon-bar {
+            font-size: 20px;
+            width: 100%
+          }
+          .social-icon-bar i {
+            margin-right: 6%;
+            color: #cbd6e2;
+          }
+          #footer-bottom {
+            height: 200px;
+          }
+          #footer-bottom ul {
+            width: 100%;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 20px;
+          }
+          #footer-bottom ul li{
+           display: inline-block;
+            margin-left: 40px;
+          }
+          .copyright {
+            border-top: 1px solid white;
+            padding-top: 50px;
+          }
+          
+          #footer-bottom ul.right-float {
+            width: auto;
+          }
+
   /*---/FOOTER---*/
