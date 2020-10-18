@@ -470,9 +470,7 @@ div.wrap-service,div.service article, section.community {
             margin-right: 6%;
             color: #cbd6e2;
           }
-          #footer-bottom {
-            height: 200px;
-          }
+          
           #footer-bottom ul {
             width: 100%;
             text-align: center;
@@ -487,9 +485,13 @@ div.wrap-service,div.service article, section.community {
             border-top: 1px solid white;
             padding-top: 50px;
           }
-          
+
           #footer-bottom ul.right-float {
             width: auto;
+            margin-top:0px;
+          }
+          .footerlogo {
+            display: inline-block;
           }
 
   /*---/FOOTER---*/
