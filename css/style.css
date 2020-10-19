@@ -97,7 +97,13 @@ div.wrap-service,div.service article, section.community {
   text-align: justify;
 }
 /*----HEADER----*/
+
 #header-top {
+  width: 100%;
+  position: fixed;
+  right: 0;
+  top:0;
+  z-index: 4;
   height: 80px;
   background-color: #f4f9fd;
   border-bottom: 1.5px solid #33475b;
@@ -164,11 +170,10 @@ div.page-languages a::after {
 nav {
   height: 80px;
   width: 100%;
-  /* position: fixed;
-  top:80px; */
-  position: sticky;
+  margin-top:80px;
+  /* position: sticky;
   top:0;
-  z-index: 2;
+  z-index: 2; */
   line-height: 80px;
   vertical-align: middle;
 }
