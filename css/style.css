@@ -52,17 +52,21 @@ a:hover {
   text-decoration: underline;
 }
 
-.link-buttons-orange {
+.link-btn-orange {
   background-color: #fe775a;
   color: white;
   padding: 25px;
   display: inline-block;
   border-radius: 5px;
 }
-.link-buttons-orange:hover {
+.link-btn-orange:hover {
   background-color: #ffbcac;
   text-decoration: none;
   color: white;
+}
+.link-btn-white:hover {
+  background-color: #ffbcac;
+  text-decoration: none;
 }
 
 .left-float {
@@ -151,7 +155,7 @@ div.page-languages a::after {
 .header-top-right-search i {
   color: #03a7bf;
 }
-.header-top-right-login a, .header-top-right-getfree a.link-buttons-orange {
+a.link-btn-white, .header-top-right-getfree a.link-btn-orange {
   line-height: 40px;
   display: inline-block;
   text-align: center;
@@ -160,7 +164,8 @@ div.page-languages a::after {
   padding: 0 10px;
 }
 
-.header-top-right-login a {
+a.link-btn-white {
+  background-color: white;
   border: 1px solid #fe775a;
   color:#fe775a;
 }
@@ -387,7 +392,7 @@ div.table-relation-box {
   padding-top: 40px;
   display: table-cell;
 }
-       */
+*/
 
 .table-relation-box p {
   font-size: 0.8rem;
