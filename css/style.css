@@ -75,7 +75,7 @@ a:hover {
 
 .wrap-center {
   margin:auto;
-  width: 70%;
+  width: 80%;
 }
 
 .background-white {
@@ -533,6 +533,8 @@ a.link-support {
 .welcome-chat p{
   font-size: 14px;
   color: rgb(66, 91, 118);
+  font-weight: 400;
+   letter-spacing: -1px;
 }
 
 #chat {
@@ -541,7 +543,7 @@ a.link-support {
   background-color: rgb(66, 91, 118);
   color:white;
   border-radius: 25px;
-  margin-top:20px;
+  margin-top:15px;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
