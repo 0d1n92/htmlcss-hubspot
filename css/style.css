@@ -356,6 +356,13 @@ div.table-ralation-second-row, div.table-ralation-first-row {
   width: 100%;
   font-size: 0;
 }
+/* se si utilizza questa soluzione cancellare i fontsize dal  table-ralation-second-row e da div.table-ralation-second-row h2 soluzione più ottimale percheè mi mantine i bordi uguali scrivendo più testo
+*
+*
+div.table-ralation-second-row, div.table-ralation-first-row {
+  display: table;
+  width: 100%;
+} */
 div.table-ralation-second-row h2, div.table-ralation-first-row h2 {
   font-size: 1.975rem;
 }
@@ -368,6 +375,14 @@ div.table-relation-box {
   border-right:2px solid rgba(255,255,255,0.5);
   padding-top: 40px;
 }
+/* div.table-relation-box {
+  border-right:2px solid rgba(255,255,255,0.5);
+  width: calc(100%/4);
+  padding-top: 40px;
+  display: table-cell;
+}
+       */
+
 .table-relation-box p {
   font-size: 0.8rem;
 }
@@ -489,3 +504,61 @@ a.link-support {
   display: inline-block;
 }
 /*---/FOOTER---*/
+/*---widget---*/
+.widget {
+  position: fixed;
+  right: 0;
+  bottom: 2%;
+  z-index: 3;
+  padding-right:15px;
+
+}
+.welcome-chat img {
+  width: 50px;
+  position: absolute;
+  right: 50%;
+  transform: translate(50% , 0);
+  top: -15%;
+}
+.schedule, #chat {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+}
+
+.schedule {
+  padding: 5px 10px 15px 10px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.welcome-chat p{
+  font-size: 14px;
+  color: rgb(66, 91, 118);
+}
+
+#chat {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(66, 91, 118);
+  color:white;
+  border-radius: 25px;
+  margin-top:20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 23px;
+
+}
+
+.schedule::before {
+  width: 100%;
+  text-align: right;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00d";
+  color:inherit;
+  font-weight: 600;
+  font-size: 18px;
+  float: right;
+  margin: 5px;
+  vertical-align:
+}
