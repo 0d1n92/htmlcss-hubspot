@@ -97,13 +97,14 @@ div.wrap-service,div.service article, section.community {
   text-align: justify;
 }
 /*----HEADER----*/
-
-#header-top {
+header {
   width: 100%;
   position: fixed;
   right: 0;
   top:0;
   z-index: 4;
+}
+#header-top {
   height: 80px;
   background-color: #f4f9fd;
   border-bottom: 1.5px solid #33475b;
