@@ -233,6 +233,7 @@ article.hero-content {
   position: relative;
   z-index: 1;
 }
+
 p.info{
   margin-top: 30px;
   font-size: .875rem;
@@ -423,6 +424,7 @@ img.resize-img {
 div.customers-status-bottom > div, div.customers-status-top > div {
   display: inline-block;
 }
+
 .image-team img {
   width: 280px;
 }
