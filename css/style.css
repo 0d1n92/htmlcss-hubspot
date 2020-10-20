@@ -86,14 +86,14 @@ a:hover {
   background-color: white;
 }
 
-footer,section.customers-status, div.service, div.home-page-hero {
+footer, section.customers-status, div.service, div.home-page-hero {
   padding: 50px 0;
 }
 
 .popolar-feature {
   text-transform: uppercase;
 }
-div.wrap-service,div.service article, section.community {
+div.wrap-service, div.service article,  section.community {
   text-align: center;
 }
 
@@ -190,8 +190,9 @@ nav {
 .navbar .logo a {
   display: inline-block;
   line-height: 80px;
+}
+.logo img {
   vertical-align: middle;
-  transform: translateY(10%);
 }
 /*----navbar dx---- */
 .nav-menu {
@@ -328,7 +329,7 @@ ul.popolar-list-orizontal li{
 /*-- div contenitore servizi wrap-service--*/
 .wrap-service > section {
   height: 100%;
-  width:calc((100% - 100px)/3);
+  width: calc((100% - 100px)/3);
   min-width: 190px;
   margin: 50px 25px 0px 25px;
   padding: 30px;
