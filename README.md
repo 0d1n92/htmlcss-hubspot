@@ -1,11 +1,17 @@
-<h1>Site replication digitalocean.com</h1>
-<p>Exercise of html css replication first page of the hubspot.com</p>
-<h2>Track exercise</h2>
- <p><strong>IT:</strong><br>
-  <p>Fedele replica in html e css della prima pagina del sito hubspot.com</p>     
- <p>
-
-<h4>Screnshoot result LG:</h4>
-<img src="https://ibb.co/XD9Q5Tt" width="500" >
+<div>
+  <h1>REPLICA CSS HUBSPOT</h1>
+  <p>Replica fedele della prima pagina del sito hubspot.com</p>
+  <strong>Tecnologie:</strong>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+   
+  </ul>
+  <div style="margin-top:10px">
+    <strong>RESULT LG:</strong><br>
+    <img width=400px src="https://i.ibb.co/PQBq6yZ/2021-03-06-12-22-localhost.png" alt="HUBSPOT.IMG" >
+  </div>
+  
+</div>
 
 
